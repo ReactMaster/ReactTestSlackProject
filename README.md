@@ -16,3 +16,4 @@ node src/server/server
 Visit to `localhost:3000`
 
 Live video here
+https://www.screencast.com/t/q4ZrUOevtLX
