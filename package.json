@@ -1,7 +1,7 @@
 {
-  "name": "Slack Chat Testapp",
+  "name": "React-Slack-Text-Chat",
   "version": "0.0.1",
-  "description": "Node.js backend, socket.io for real-time chat and React frontend",
+  "description": "React.js + ReactBootstrap + Redux forfrontend, socketio chat and Node.js, Express.js and Mognodb for backend.",
   "main": "server.js",
   "scripts": {
     "start": "NODE_ENV=production node src/server/server",
@@ -11,8 +11,20 @@
     "lint": "eslint 'src'",
     "build": "NODE_ENV=production webpack --config ./webpack.config.prod.js"
   },
-  "author": "wow.wegbenius@gmail.com",
-  "license": "ReactMaster",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ReactMaster/ReactTestSlackProject"
+  },
+  "keywords": [
+    "react",
+    "reactjs",
+    "webpack",
+    "Node.js",
+    "redux",
+    "socket.io"
+  ],
+  "author": "wow.webgenius@gmail.com",
+  "license": "Liam M.",
   "devDependencies": {
     "babel-eslint": "^4.1.2",
     "babel-plugin-react-transform": "^2.0.0",
